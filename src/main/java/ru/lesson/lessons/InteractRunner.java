@@ -35,6 +35,8 @@ public class InteractRunner {
                     System.out.println("Do you want to use result? y/n");
                     yesOrNo = reader.readLine();
                 }
+                // Обнуляем результат
+                calc.cleanResult();
                 // Выходить или нет
                 System.out.println("Exit : y/n ");
                 exit = reader.readLine();

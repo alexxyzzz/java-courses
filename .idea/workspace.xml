@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7f10bef-adb9-4531-bd3f-da4e3c3e71eb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/lesson/lessons/ArgRunner.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/lessons-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.lesson.lessons.CalculateTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/ru.lesson.lessons.CalculateTest.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/lesson/lessons/Calculate.class" afterPath="$PROJECT_DIR$/target/classes/ru/lesson/lessons/Calculate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/lesson/lessons/Calculator.class" afterPath="$PROJECT_DIR$/target/classes/ru/lesson/lessons/Calculator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/lesson/lessons/InteractRunner.class" afterPath="$PROJECT_DIR$/target/classes/ru/lesson/lessons/InteractRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ru/lesson/lessons/CalculateTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ru/lesson/lessons/CalculateTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons.iml" afterPath="$PROJECT_DIR$/lessons.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/lesson/lessons/Calculator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/lesson/lessons/Calculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/lesson/lessons/InteractRunner.java" afterPath="$PROJECT_DIR$/src/main/java/ru/lesson/lessons/InteractRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +22,8 @@
       <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/lessons/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+            <state relative-caret-position="1139">
+              <caret line="81" column="1" lean-forward="false" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
               <folding>
                 <element signature="e#256#257#0" expanded="true" />
                 <element signature="e#293#294#0" expanded="true" />
@@ -53,8 +35,8 @@
       <file leaf-file-name="InteractRunner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/lessons/InteractRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="425">
+              <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +69,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/lesson/lessons/CalculateTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/lessons/ArgRunner.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/lessons/InteractRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/lessons/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/lessons/InteractRunner.java" />
       </list>
     </option>
   </component>
@@ -162,9 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,6 +198,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -621,13 +603,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39972144" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.316156" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.316156" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26432666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2679083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -656,6 +638,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/lessons/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/lessons/InteractRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/lessons/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -762,174 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="1370" column="20" lean-forward="true" selection-start-line="1370" selection-start-column="20" selection-end-line="1370" selection-end-column="20" />
-          <folding>
-            <element signature="docComment;class#Scanner#0" expanded="false" />
-            <element signature="class#13768:14006" expanded="false" />
-            <element signature="docComment;field#groupSeparator#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;field#boolPattern#0;class#Scanner#0" expanded="false" />
-            <element signature="method#boolPattern#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;field#integerPattern#0;class#Scanner#0" expanded="false" />
-            <element signature="method#buildIntegerPatternString#0;class#Scanner#0" expanded="false" />
-            <element signature="e#15830#15883#0" expanded="false" />
-            <element signature="e#16267#16332#0" expanded="false" />
-            <element signature="method#integerPattern#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;field#separatorPattern#0;class#Scanner#0" expanded="false" />
-            <element signature="method#separatorPattern#0;class#Scanner#0" expanded="false" />
-            <element signature="method#linePattern#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;field#floatPattern#0;class#Scanner#0" expanded="false" />
-            <element signature="method#buildFloatAndDecimalPattern#0;class#Scanner#0" expanded="false" />
-            <element signature="method#floatPattern#0;class#Scanner#0" expanded="false" />
-            <element signature="method#decimalPattern#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#Scanner#0;class#Scanner#0" expanded="false" />
-            <element signature="method#Scanner#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#Scanner#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#Scanner#2;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#Scanner#3;class#Scanner#0" expanded="false" />
-            <element signature="method#Scanner#3;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#toCharset#0;class#Scanner#0" expanded="false" />
-            <element signature="method#toCharset#0;class#Scanner#0" expanded="false" />
-            <element signature="method#makeReadable#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#Scanner#4;class#Scanner#0" expanded="false" />
-            <element signature="method#Scanner#4;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#Scanner#5;class#Scanner#0" expanded="false" />
-            <element signature="method#Scanner#5;class#Scanner#0" expanded="false" />
-            <element signature="method#Scanner#6;class#Scanner#0" expanded="false" />
-            <element signature="method#toDecoder#0;class#Scanner#0" expanded="false" />
-            <element signature="method#makeReadable#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#Scanner#7;class#Scanner#0" expanded="false" />
-            <element signature="method#Scanner#7;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#Scanner#8;class#Scanner#0" expanded="false" />
-            <element signature="method#Scanner#8;class#Scanner#0" expanded="false" />
-            <element signature="method#Scanner#9;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#Scanner#10;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#Scanner#11;class#Scanner#0" expanded="false" />
-            <element signature="method#Scanner#11;class#Scanner#0" expanded="false" />
-            <element signature="method#makeReadable#2;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#Scanner#12;class#Scanner#0" expanded="false" />
-            <element signature="method#Scanner#12;class#Scanner#0" expanded="false" />
-            <element signature="method#revertState#0;class#Scanner#0" expanded="false" />
-            <element signature="method#revertState#1;class#Scanner#0" expanded="false" />
-            <element signature="method#cacheResult#0;class#Scanner#0" expanded="false" />
-            <element signature="method#cacheResult#1;class#Scanner#0" expanded="false" />
-            <element signature="method#clearCaches#0;class#Scanner#0" expanded="false" />
-            <element signature="method#getCachedResult#0;class#Scanner#0" expanded="false" />
-            <element signature="method#useTypeCache#0;class#Scanner#0" expanded="false" />
-            <element signature="method#readInput#0;class#Scanner#0" expanded="false" />
-            <element signature="method#makeSpace#0;class#Scanner#0" expanded="false" />
-            <element signature="method#translateSavedIndexes#0;class#Scanner#0" expanded="false" />
-            <element signature="method#throwFor#0;class#Scanner#0" expanded="false" />
-            <element signature="method#hasTokenInBuffer#0;class#Scanner#0" expanded="false" />
-            <element signature="method#getCompleteTokenInBuffer#0;class#Scanner#0" expanded="false" />
-            <element signature="e#33470#33532#0" expanded="false" />
-            <element signature="e#34124#34184#0" expanded="false" />
-            <element signature="e#34596#34655#0" expanded="false" />
-            <element signature="e#34895#34952#0" expanded="false" />
-            <element signature="e#36093#36157#0" expanded="false" />
-            <element signature="e#36811#36868#0" expanded="false" />
-            <element signature="method#findPatternInBuffer#0;class#Scanner#0" expanded="false" />
-            <element signature="e#38072#38124#0" expanded="false" />
-            <element signature="e#38557#38620#0" expanded="false" />
-            <element signature="method#matchPatternInBuffer#0;class#Scanner#0" expanded="false" />
-            <element signature="method#ensureOpen#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#close#0;class#Scanner#0" expanded="false" />
-            <element signature="method#close#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#ioException#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#delimiter#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#useDelimiter#0;class#Scanner#0" expanded="false" />
-            <element signature="method#useDelimiter#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#useDelimiter#1;class#Scanner#0" expanded="false" />
-            <element signature="method#useDelimiter#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#locale#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#useLocale#0;class#Scanner#0" expanded="false" />
-            <element signature="method#useLocale#0;class#Scanner#0" expanded="false" />
-            <element signature="e#43374#43432#0" expanded="false" />
-            <element signature="e#43618#43670#0" expanded="false" />
-            <element signature="e#44453#44510#0" expanded="false" />
-            <element signature="docComment;method#radix#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#useRadix#0;class#Scanner#0" expanded="false" />
-            <element signature="method#useRadix#0;class#Scanner#0" expanded="false" />
-            <element signature="method#setRadix#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#match#0;class#Scanner#0" expanded="false" />
-            <element signature="method#match#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Scanner#0" expanded="false" />
-            <element signature="method#toString#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNext#0;class#Scanner#0" expanded="false" />
-            <element signature="method#hasNext#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#next#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNext#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#next#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNext#2;class#Scanner#0" expanded="false" />
-            <element signature="method#hasNext#2;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#next#2;class#Scanner#0" expanded="false" />
-            <element signature="method#next#2;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextLine#0;class#Scanner#0" expanded="false" />
-            <element signature="method#hasNextLine#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextLine#0;class#Scanner#0" expanded="false" />
-            <element signature="method#nextLine#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#findInLine#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#findInLine#1;class#Scanner#0" expanded="false" />
-            <element signature="method#findInLine#1;class#Scanner#0" expanded="false" />
-            <element signature="e#59160#59219#0" expanded="false" />
-            <element signature="docComment;method#findWithinHorizon#0;class#Scanner#0" expanded="false" />
-            <element signature="method#findWithinHorizon#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#findWithinHorizon#1;class#Scanner#0" expanded="false" />
-            <element signature="method#findWithinHorizon#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#skip#0;class#Scanner#0" expanded="false" />
-            <element signature="method#skip#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#skip#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextBoolean#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextBoolean#0;class#Scanner#0" expanded="false" />
-            <element signature="method#nextBoolean#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextByte#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextByte#1;class#Scanner#0" expanded="false" />
-            <element signature="method#hasNextByte#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextByte#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextByte#1;class#Scanner#0" expanded="false" />
-            <element signature="method#nextByte#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextShort#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextShort#1;class#Scanner#0" expanded="false" />
-            <element signature="method#hasNextShort#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextShort#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextShort#1;class#Scanner#0" expanded="false" />
-            <element signature="method#nextShort#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextInt#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextInt#1;class#Scanner#0" expanded="false" />
-            <element signature="method#hasNextInt#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#processIntegerToken#0;class#Scanner#0" expanded="false" />
-            <element signature="method#processIntegerToken#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextInt#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextInt#1;class#Scanner#0" expanded="false" />
-            <element signature="method#nextInt#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextLong#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextLong#1;class#Scanner#0" expanded="false" />
-            <element signature="method#hasNextLong#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextLong#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextLong#1;class#Scanner#0" expanded="false" />
-            <element signature="method#nextLong#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#processFloatToken#0;class#Scanner#0" expanded="false" />
-            <element signature="method#processFloatToken#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextFloat#0;class#Scanner#0" expanded="false" />
-            <element signature="method#hasNextFloat#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextFloat#0;class#Scanner#0" expanded="false" />
-            <element signature="method#nextFloat#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextDouble#0;class#Scanner#0" expanded="false" />
-            <element signature="method#hasNextDouble#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextDouble#0;class#Scanner#0" expanded="false" />
-            <element signature="method#nextDouble#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextBigInteger#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextBigInteger#1;class#Scanner#0" expanded="false" />
-            <element signature="method#hasNextBigInteger#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextBigInteger#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextBigInteger#1;class#Scanner#0" expanded="false" />
-            <element signature="method#nextBigInteger#1;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#hasNextBigDecimal#0;class#Scanner#0" expanded="false" />
-            <element signature="method#hasNextBigDecimal#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#nextBigDecimal#0;class#Scanner#0" expanded="false" />
-            <element signature="method#nextBigDecimal#0;class#Scanner#0" expanded="false" />
-            <element signature="docComment;method#reset#0;class#Scanner#0" expanded="false" />
-            <element signature="method#reset#0;class#Scanner#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,8 +778,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/lessons/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+        <state relative-caret-position="1139">
+          <caret line="81" column="1" lean-forward="false" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
           <folding>
             <element signature="e#256#257#0" expanded="true" />
             <element signature="e#293#294#0" expanded="true" />
@@ -954,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/lessons/InteractRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="425">
+          <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
