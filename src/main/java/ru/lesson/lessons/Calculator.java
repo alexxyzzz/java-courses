@@ -1,82 +1,107 @@
 package ru.lesson.lessons;
 
 /**
- * Класс реализует калькулятор
+ * Класс для вычисления арифмитических операций.
  */
-public class Calculator {
+class Calculator {
+
     /**
-     * Результат вычисления
+     * Результат вычисления.
      */
     private double result;
 
     /**
-     * Суммируем аргументы
-     */
-    private void addition(double d1, double d2) {
-        this.result = d1 + d2;
-    }
-
-    /**
-     * Вычитаем из первого аргумента второй.
-     */
-    private void deduction(double d1, double d2) {
-        this.result = d1 - d2;
-    }
-
-    /**
-     * Умножаем аргументы
-     */
-    private void multiplication(double d1, double d2) {
-        this.result = d1 * d2;
-    }
-
-    /**
-     * Делим первый аргумент на второй
-     */
-    private void division(double d1, double d2) {
-        this.result = d1 / d2;
-    }
-
-    /**
-     * Возведение в степень
-     */
-    private void power(double d1, double d2) {
-        this.result = Math.pow(d1, d2);
-    }
-
-    /**
-     * Получить результат вычисления
+     * Метод возвращает результат вычисления.
+     *
+     * @return результат
      */
     double getResult() {
         return this.result;
     }
 
     /**
-     * Очистить результат вычисления
+     * Очистить результат вычисления.
      */
-    public void cleanResult() {
+    void cleanResult() {
         this.result = 0;
     }
 
     /**
-     * Выбираем, какую операцию вызвать
+     * Метод для вызова арифметических операций.
+     *
+     * @param num1     первое число
+     * @param num2     второе число
+     * @param operator арифмитическая операция
      */
-    void callOperation(double number1, double number2, char operator1) {
-        switch (operator1) {
+    void doCalc(final double num1, final double num2, final char operator) {
+        switch (operator) {
             case '+':
-                this.addition(number1, number2);
+                this.addition(num1, num2);
                 break;
             case '-':
-                this.deduction(number1, number2);
+                this.deduction(num1, num2);
                 break;
             case '*':
-                this.multiplication(number1, number2);
+                this.multiplication(num1, num2);
                 break;
             case '/':
-                this.division(number1, number2);
+                this.division(num1, num2);
                 break;
             case '^':
-                this.power(number1, number2);
+                this.power(num1, num2);
+                break;
+            default:
+                System.out.println("Input Error");
         }
+    }
+
+    /**
+     * Сложение чисел.
+     *
+     * @param number1 первое число
+     * @param number2 второе число
+     */
+    private void addition(final double number1, final double number2) {
+        this.result = number1 + number2;
+    }
+
+    /**
+     * Вычитание чисел.
+     *
+     * @param number1 первое число
+     * @param number2 втророе число
+     */
+    private void deduction(final double number1, final double number2) {
+        this.result = number1 - number2;
+    }
+
+    /**
+     * Умножение чисел.
+     *
+     * @param number1 первое число
+     * @param number2 второе число
+     */
+    private void multiplication(final double number1, final double number2) {
+        this.result = number1 * number2;
+    }
+
+    /**
+     * Деление чисел.
+     *
+     * @param number1 первое число
+     * @param number2 второе число
+     */
+    private void division(final double number1, final double number2) {
+        this.result = number1 / number2;
+    }
+
+    /**
+     * Возведение в степень.
+     *
+     * @param number1 первое число
+     * @param number2 второе число
+     */
+    private void power(final double number1, final double number2) {
+        this.result = Math.pow(number1, number2);
     }
 }

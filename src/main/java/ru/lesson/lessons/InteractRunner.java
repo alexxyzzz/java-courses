@@ -8,62 +8,77 @@ import java.io.InputStreamReader;
  * Класс для запуска калькулятора. Поддерживает ввод пользователя.
  */
 public class InteractRunner {
+
+    /**
+     * Переменная хранит 1-е число, введёное пользователем.
+     */
     private double firstArg;
+
+    /**
+     * * Переменная хранит 2-е число, введёное пользователем.
+     */
     private double secondArg;
+
+    /**
+     * * Переменная хранит операцию, введёную пользователем.
+     */
     private char operator;
 
-    public static void main(String[] args) {
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
-            Calculator calc = new Calculator();
+    /**
+     * Method main.
+     *
+     * @param args input params
+     */
+    public static void main(final String[] args) {
+
+        try (BufferedReader reader = new BufferedReader(
+                new InputStreamReader(System.in))) {
             InteractRunner iR = new InteractRunner();
+            Calculator calc = new Calculator();
+            boolean useResult = false;
             String exit = "n";
+
             while (!exit.equals("y")) {
-                // Вводим пользовательские данные
-                iR.userInput(reader);
-                // Вызываем операцию
-                calc.callOperation(iR.firstArg, iR.secondArg, iR.operator);
-                // Выводим результат
+                iR.userInput(reader, useResult);
+                calc.doCalc(iR.firstArg, iR.secondArg, iR.operator);
                 System.out.println("Result : " + calc.getResult());
-                // Спрашиваем, использовтаь результат или нет
+
                 System.out.println("Do you want to use result? y/n");
-                String yesOrNo = reader.readLine();
-                // До тех пор, пока юзер не введёт "n", используем вместо первого аргумента переменную result.
-                while (yesOrNo.equals("y")) {
-                    iR.userHalfInput(reader);
-                    calc.callOperation(calc.getResult(), iR.secondArg, iR.operator);
+                useResult = reader.readLine().equals("y");
+
+                while (useResult) {
+                    iR.userInput(reader, useResult);
+                    calc.doCalc(calc.getResult(), iR.secondArg, iR.operator);
                     System.out.println("Result : " + calc.getResult());
                     System.out.println("Do you want to use result? y/n");
-                    yesOrNo = reader.readLine();
+                    useResult = reader.readLine().equals("y");
                 }
-                // Обнуляем результат
                 calc.cleanResult();
-                // Выходить или нет
                 System.out.println("Exit : y/n ");
                 exit = reader.readLine();
             }
-        } catch (Exception e) {
-            System.out.println("Error data input : " + e.toString());
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     /**
-     * Чиаем с консоли два аргумента и мат.оператор
+     * Метод читает с консоли два числа и мат.оператор.
+     *
+     * @param reader    поток чтения данных
+     * @param useResult если аргумент == false, то первое число не читаем
+     * @throws IOException возможное исключение
      */
-    private void userInput(BufferedReader reader) throws IOException {
-        System.out.println("Enter first argument : ");
-        this.firstArg = Double.parseDouble(reader.readLine());
-        this.userHalfInput(reader);
-    }
-
-    /**
-     * Читем с консоли только второй аргумент и оператор
-     */
-    private void userHalfInput(BufferedReader reader) throws IOException {
+    private void userInput(final BufferedReader reader,
+                           final boolean useResult) throws IOException {
+        if (!useResult) {
+            System.out.println("Enter first argument : ");
+            this.firstArg = Double.parseDouble(reader.readLine());
+        }
         System.out.println("Enter second argument : ");
         this.secondArg = Double.parseDouble(reader.readLine());
+
         System.out.println("Enter any of operation : + - * / ^");
         this.operator = reader.readLine().charAt(0);
     }
 }
-
