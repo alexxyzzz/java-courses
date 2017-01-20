@@ -20,7 +20,7 @@ public class InteractRunner {
     private double secondArg;
 
     /**
-     * * Переменная хранит операцию, введёную пользователем.
+     * * Переменная хранит тип операции.
      */
     private char operator;
 

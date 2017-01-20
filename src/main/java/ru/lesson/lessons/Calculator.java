@@ -92,6 +92,10 @@ class Calculator {
      * @param number2 второе число
      */
     private void division(final double number1, final double number2) {
+        if (number2 == 0) {
+            System.out.println("Error : division by zero.");
+            return;
+        }
         this.result = number1 / number2;
     }
 
@@ -102,6 +106,10 @@ class Calculator {
      * @param number2 второе число
      */
     private void power(final double number1, final double number2) {
+        if (number1 == 0 && number2 == 0) {
+            System.out.println("Zero to the zero power is not defined.");
+            return;
+        }
         this.result = Math.pow(number1, number2);
     }
 }
